@@ -6,3 +6,6 @@ gen
 
 # Maven
 target
+
+# Spigot
+spigot.jar
