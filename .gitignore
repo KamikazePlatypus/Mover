@@ -6,4 +6,4 @@ gen
 
 # Maven
 target
-src/main/java/META-INF
+src/main/java/META-INF/*
