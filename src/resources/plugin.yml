@@ -1,0 +1,9 @@
+name: TestPlugin
+version: 1.0
+author: KamikazePlatypus
+main: com.kamikazedev.testplugin.Main
+
+commands:
+  kit:
+    description: Gives a player some items
+    usage: /kit
