@@ -7,3 +7,6 @@ commands:
   mover:
     description: Creates a block animation
     usage: /mover {velocity} {time} [acceleration] [block1] [block2]
+  test:
+    description: Spawns a movable armor stand
+    usages: /test
