@@ -1,9 +1,9 @@
-name: TestPlugin
+name: Mover
 version: 1.0
 author: KamikazePlatypus
-main: com.kamikazedev.testplugin.Main
+main: com.kamikazedev.mover.Mover
 
 commands:
-  kit:
-    description: Gives a player some items
-    usage: /kit
+  mover:
+    description: Creates a block animation
+    usage: /mover {velocity} {time} [acceleration] [block1] [block2]
