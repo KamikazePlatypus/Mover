@@ -2,13 +2,12 @@ package com.kamikazedev.mover.entity;
 
 import net.minecraft.server.v1_12_R1.EntityArmorStand;
 import net.minecraft.server.v1_12_R1.EnumMoveType;
-import org.bukkit.World;
-import org.bukkit.craftbukkit.v1_12_R1.CraftWorld;
+import net.minecraft.server.v1_12_R1.World;
 
 public class CustomArmorStand extends EntityArmorStand {
 
   public CustomArmorStand(World world) {
-    super(((CraftWorld) world).getHandle());
+    super(world);
   }
 
   @Override
